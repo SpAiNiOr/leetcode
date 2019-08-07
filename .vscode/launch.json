@@ -2,6 +2,18 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - LongString",
+            "request": "launch",
+            "mainClass": "LongString"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - addTwoNumbers",
+            "request": "launch",
+            "mainClass": "addTwoNumbers"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - AddTwoNumbers",
             "request": "launch",
             "mainClass": "AddTwoNumbers"
