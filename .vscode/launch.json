@@ -2,6 +2,19 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - PalindromeString2",
+            "request": "launch",
+            "mainClass": "PalindromeString2",
+            "projectName": "leetcode_59eaafdf"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PalindromeString",
+            "request": "launch",
+            "mainClass": "PalindromeString"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - LongString",
             "request": "launch",
             "mainClass": "LongString"
