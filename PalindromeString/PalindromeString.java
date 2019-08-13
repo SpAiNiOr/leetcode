@@ -38,12 +38,16 @@ public class PalindromeString {
 
         for (int i = 0; i < length; i++) {
             for (int j = i + 1; j < length; j++) {
-                System.out.println("i: " + i + " j: " + j);
                 if (checkPalindrome(stringMap, i, j) && (j - i + 1) >= strLength) {
                     strLength = j - i + 1;
                     result = "";
-                    for (int x = i; x <= j; x++) {
-                        result += stringMap.get(x);
+                    if (strLength == length) {
+                        return s;
+                    } else {
+                        for (int x = i; x <= j; x++) {
+                            result += stringMap.get(x);
+                        }
+
                     }
                 }
 
@@ -81,7 +85,7 @@ public class PalindromeString {
         sMap.put(2, "b");
         sMap.put(3, "a");
         sMap.put(4, "d");
-        String s = "civilwartestingwhetherthatnaptionoranynartionsoconceivedandsodedicatedcanlongendureWeareqmetonagreatbattlefiemldoftzhatwarWehavecometodedicpateaportionofthatfieldasafinalrestingplaceforthosewhoheregavetheirlivesthatthatnationmightliveItisaltogetherfangandproperthatweshoulddothisButinalargersensewecannotdedicatewecannotconsecratewecannothallowthisgroundThebravelmenlivinganddeadwhostruggledherehaveconsecrateditfaraboveourpoorponwertoaddordetractTgheworldadswfilllittlenotlenorlongrememberwhatwesayherebutitcanneverforgetwhattheydidhereItisforusthelivingrathertobededicatedheretotheulnfinishedworkwhichtheywhofoughtherehavethusfarsonoblyadvancedItisratherforustobeherededicatedtothegreattdafskremainingbeforeusthatfromthesehonoreddeadwetakeincreaseddevotiontothatcauseforwhichtheygavethelastpfullmeasureofdevotionthatweherehighlyresolvethatthesedeadshallnothavediedinvainthatthisnationunsderGodshallhaveanewbirthoffreedomandthatgovernmentofthepeoplebythepeopleforthepeopleshallnotperishfromtheearth";
+        String s = "nnnmn";
         // pString.checkPalindrome(sMap, 0, 2);
         pString.longestPalindrome(s);
 
