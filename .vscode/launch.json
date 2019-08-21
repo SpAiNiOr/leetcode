@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ReverseInt",
+            "request": "launch",
+            "mainClass": "ReverseInt",
+            "projectName": "leetcode_59eaafdf"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - reverseInt",
+            "request": "launch",
+            "mainClass": "reverseInt",
+            "projectName": "leetcode_59eaafdf"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - OfficialPalindrome",
             "request": "launch",
             "mainClass": "OfficialPalindrome",
