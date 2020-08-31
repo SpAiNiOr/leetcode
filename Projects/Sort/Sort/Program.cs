@@ -9,7 +9,7 @@ namespace Sort
             Console.WriteLine("This is for sorting algrithim");
 
             int[] arr = new int[] { 3, 2, 5, 6, 7, 8, };
-            Console.WriteLine($"The sample array is {arr}");
+            Console.WriteLine($"The sample list is following");
             print(arr);
 
             Console.WriteLine("The first one is Bubble Sorting");
@@ -17,6 +17,15 @@ namespace Sort
             Bubble bubble = new Bubble();
 
             print(bubble.BubbleSorting(arr));
+            // Console.ReadLine();
+
+
+            //Select sort
+
+            Console.WriteLine("The Second one is Select Sorting");
+            int[] arr2 = new int[] { 3, 2, 5, 6, 7, 8, };
+            Select sel = new Select();
+            print(sel.SelectSorting(arr2));
             Console.ReadLine();
 
         }
@@ -29,6 +38,8 @@ namespace Sort
                 Console.Write(n);
                 Console.Write(" ");
             }
+
+            Console.WriteLine("/n");
         }
     }
 }
