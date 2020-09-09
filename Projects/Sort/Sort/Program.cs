@@ -28,6 +28,13 @@ namespace Sort
             print(sel.SelectSorting(arr2));
             Console.ReadLine();
 
+            Console.WriteLine("The Second one is Insert Sorting");
+            int[] arr3 = new int[] { 3, 2, 5, 6, 7, 8, };
+            Insert insert = new Insert();
+            print(insert.InsertSorting(arr3));
+            Console.ReadLine();
+
+
         }
 
         //abstract print element in the array.
